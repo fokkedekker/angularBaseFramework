@@ -23,7 +23,7 @@ Create a new file in /etc/apache2/sites-available containing the following code.
 
 
 
-<Directory /paht/to/document/root>
+<Directory /path/to/document/root>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny
@@ -55,6 +55,6 @@ Check the Angular version to make sure it is the one you want to use. By default
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 ```
 
-Now you should be good to go. If not suck to be you!
+Now you should be good to go. If not sucks to be you!
 
 
