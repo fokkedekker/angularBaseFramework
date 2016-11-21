@@ -44,11 +44,6 @@ class Main {
         die();
     }
 
-    public function hashpw($pw) {
-        // hash password AES256
-        return password_hash($pw, PASSWORD_DEFAULT);
-    }
-
     public function validateParams($params, $required) {
         foreach($required as $p) {
             if(!isset($params[$p]) || $params[$p] == "") {
@@ -57,8 +52,5 @@ class Main {
         }
     }
 
-    public function isValidEmail($email){
-        return !filter_var($email, FILTER_VALIDATE_EMAIL) === false;
-    }
 }
 ?>

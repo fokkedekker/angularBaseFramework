@@ -3,7 +3,7 @@ This repository accommodates the base framework I use for my angular JS projects
 
 ## startup
 
-#### clone project
+### clone project
 Clone this git repository, be sure to take all the files. 
 
 ### create new apache site
@@ -54,6 +54,19 @@ Check the Angular version to make sure it is the one you want to use. By default
 ```HTML
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 ```
+
+### setup app.js 
+Open the file /portal/app/app.js, change the app name to your prefered application name like so
+
+```JS
+var app        = angular.module('Your_prefered_application_name', [
+    'ngRoute',
+    'ngCookies',
+    'appControllers'
+]);
+
+```
+
 
 Now you should be good to go. If not sucks to be you!
 

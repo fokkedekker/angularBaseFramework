@@ -22,9 +22,7 @@ unset($_GET['action']);
 $params = $_GET;
 
 $valid_actions = array(
-    'getAllProperties',
-    'getProperty',
-    'addProperty'
+    'yourAPICall'
 );
 
 if(empty($action) || !in_array($action, $valid_actions))
